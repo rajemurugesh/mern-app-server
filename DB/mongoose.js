@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 mongoose.set('strictQuery', false)
 const connection = () => {
-    mongoose.connect("mongodb://localhost:27017/limat", {
+    mongoose.connect("mongodb+srv://Rajeswari:raje1992@cluster1.wm1nl.mongodb.net/limat", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     })
